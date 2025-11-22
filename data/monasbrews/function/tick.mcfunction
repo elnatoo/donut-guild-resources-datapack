@@ -14,7 +14,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:dragon_breath",count:1}}] at @s
 execute as @e[type=item,nbt={Item:{id:"minecraft:milk_bucket",count:1}}] at @s if block ~ ~ ~ cauldron run function monasbrews:detect_recipe_items_milk
 execute as @e[type=item,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{milk_bottle:true}}}}] at @s if block ~ ~ ~ cauldron run function monasbrews:detect_recipe_items_milk
 
-# Timers
+# Grovomile
 execute as @a[tag=grovomile_effect] run scoreboard players add @s grovomile 1
 execute as @a[tag=grovomile_effect] run execute if score @s grovomile matches 12000 as @s run function monasbrews:grovomile/use_grovomile_3
 
