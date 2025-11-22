@@ -1,3 +1,8 @@
+# Grovomile
+team leave @s
+tag @s remove grovomile_effect
+scoreboard players reset @s grovomile
+
 # Green Tea
 tag @s remove green_tea_effect
 advancement revoke @s only monasbrews:green_tea
