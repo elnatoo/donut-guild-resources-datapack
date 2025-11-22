@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:buzzkill=true}] at @s run function monasbrews:buzzkill/use_buzzkill_2

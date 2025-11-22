@@ -1,0 +1,21 @@
+{
+	"parent": "monasbrews:root",
+	"rewards": {
+		"function": "monasbrews:strawberry_milk/use_strawberry_milk_1"
+	},		
+	"criteria": {
+    "potion": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:custom_data": {
+              "strawberry_milk": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  }
+}

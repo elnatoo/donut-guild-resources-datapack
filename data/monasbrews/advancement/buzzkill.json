@@ -1,0 +1,21 @@
+{
+	"parent": "monasbrews:root",
+	"rewards": {
+		"function": "monasbrews:buzzkill/use_buzzkill_1"
+	},		
+	"criteria": {
+    "potion": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:custom_data": {
+              "buzzkill": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  }
+}

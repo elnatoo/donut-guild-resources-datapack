@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:bloody_mary=true}] at @s run function monasbrews:bloody_mary/use_bloody_mary_2

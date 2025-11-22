@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "guildsmp:tick"
+        "guildsmp:tick",
+        "monasbrews:tick"
     ]
 }

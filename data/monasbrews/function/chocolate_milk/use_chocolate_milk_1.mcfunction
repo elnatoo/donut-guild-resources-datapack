@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:chocolate_milk=true}] run function monasbrews:chocolate_milk/use_chocolate_milk_2

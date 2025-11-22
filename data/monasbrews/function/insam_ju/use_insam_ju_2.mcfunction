@@ -1,0 +1,1 @@
+advancement revoke @s only monasbrews:insam_ju

@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:chorush=true}] at @s run function monasbrews:chorush/use_chorush_2

@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:worldbrew=true}] at @s run function monasbrews:worldbrew/use_worldbrew_2
