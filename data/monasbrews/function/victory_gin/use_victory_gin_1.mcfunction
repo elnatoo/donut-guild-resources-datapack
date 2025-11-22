@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:victory_gin=true}] run function monasbrews:victory_gin/use_victory_gin_2

@@ -1,0 +1,55 @@
+# Bourbon
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:brown_mushroom",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:wheat",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","bourbon"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#BA6F1E","italic":false,"text":"Bourbon"},"minecraft:potion_contents":{custom_color:12218142},"minecraft:lore":[{"color":"blue","italic":false,"text":"100 Proof"}],"minecraft:custom_data":{bourbon:true},"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=bourbon] at @s run function monasbrews:brewed_bourbon
+
+# Brandy
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:apple",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sweet_berries",count:2}}] at @s run summon item ~ ~ ~ {Tags:["brew","brandy"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#FFA200","italic":false,"text":"Brandy"},"minecraft:potion_contents":{custom_color:16753152},"minecraft:custom_data":{brandy:true},"minecraft:lore":[{"color":"blue","italic":false,"text":"90 Proof"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=brandy] at @s run function monasbrews:brewed_brandy
+
+# Djinn
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:lapis_lazuli",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sweet_berries",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","djinn"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#12408B","italic":false,"text":"Djinn"},"minecraft:potion_contents":{custom_color:1196171},"minecraft:custom_data":{djinn:true},"minecraft:lore":[{"color":"blue","italic":false,"text":"84 Proof"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=djinn] run function monasbrews:brewed_djinn
+
+# Evil Root Beer
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:crimson_roots",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar_cane",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","evil_root_beer"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#D14A3B","italic":false,"text":"Evil Root Beer"},"minecraft:potion_contents":{custom_color:13716027,custom_effects:[{id:"minecraft:resistance",amplifier:1,duration:3600},{id:"minecraft:strength",amplifier:0,duration:3600},{id:"minecraft:slowness",amplifier:1,duration:3600}]}}}}
+execute as @e[tag=evil_root_beer] run function monasbrews:brewed_evil_root_beer
+
+# Gin
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:fern",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sweet_berries",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","gin"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#703B60","italic":false,"text":"Gin"},"minecraft:potion_contents":{custom_color:7355232},"minecraft:custom_data":{gin:true},"minecraft:lore":[{"color":"blue","italic":false,"text":"80 Proof"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=gin] run function monasbrews:brewed_gin
+
+# Green Tea
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:oak_leaves",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:oxeye_daisy",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","green_tea"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{green_tea:true},"minecraft:custom_name":{"color":"#3D7016","italic":false,"text":"Green Tea"},"minecraft:lore":[{"color":"blue","italic":false,"text":"Speed (10:00) after sleep"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]},"minecraft:potion_contents":{custom_color:4026390}}}}
+execute as @e[tag=green_tea] at @s run function monasbrews:brewed_green_tea
+
+# Hellbrew
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:netherrack",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:soul_sand",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:blaze_rod",count:2}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:ancient_debris",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","hellbrew"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{hellbrew:true},"minecraft:potion_contents":{custom_color:6883593},"minecraft:custom_name":{"color":"#690909","italic":false,"text":"Hellbrew"},"minecraft:lore":[{"color":"blue","italic":false,"text":"Fire Resistance (20:00)"},{"color":"blue","italic":false,"text":"Strength (20:00)"},{"color":"blue","italic":false,"text":"Regeneration (20:00)"},{"color":"blue","italic":false,"text":"Jump Boost (20:00)"},{"color":"blue","italic":false,"text":"Absorption V (20:00)"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=hellbrew] at @s run function monasbrews:brewed_hellbrew
+
+# Herbal Tea
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:fern",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:flowering_azalea_leaves",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","herbal_tea"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#C48452","italic":false,"text":"Herbal Tea"},"minecraft:custom_data":{herbal_tea:true},"minecraft:lore":[{"color":"blue","italic":false,"text":"Health Boost II (20:00) after sleep"}],"minecraft:potion_contents":{custom_color:12878930},"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=herbal_tea] at @s run function monasbrews:brewed_herbal_tea
+
+# Rum
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar_cane",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","rum"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#BD7800","italic":false,"text":"Rum"},"minecraft:potion_contents":{custom_color:12417024},"minecraft:custom_data":{rum:true},"minecraft:lore":[{"color":"blue","italic":false,"text":"88 Proof"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=rum] at @s run function monasbrews:brewed_rum
+
+# Tequila
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:cactus_flower",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:wheat",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","tequila"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#CC7121","italic":false,"text":"Tequila"},"minecraft:potion_contents":{custom_color:13398305},"minecraft:lore":[{"color":"blue","italic":false,"text":"70 Proof"}],"minecraft:custom_data":{tequila:true},"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=tequila] at @s run function monasbrews:brewed_tequila
+
+# Victory Gin
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:wheat",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:spider_eye",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:pitcher_pod",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","victory_gin"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#91D3FF","italic":false,"text":"Victory Gin"},"minecraft:lore":[{"color":"blue","italic":false,"text":"86 Proof"},{"color":"blue","italic":true,"text":"1984"}],"minecraft:potion_contents":{custom_color:9556991,custom_effects:[{id:"minecraft:hero_of_the_village",amplifier:0,duration:2400},{id:"minecraft:poison",amplifier:1,duration:100}]},"minecraft:custom_data":{victory_gin:true}}}}
+execute as @e[tag=victory_gin] at @s run function monasbrews:brewed_victory_gin
+
+# Vile Root Beer
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:warped_roots",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar_cane",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","vile_root_beer"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#1C6184","italic":false,"text":"Vile Root Beer"},"minecraft:potion_contents":{custom_color:1859972,custom_effects:[{id:"minecraft:resistance",amplifier:1,duration:3600},{id:"minecraft:strength",amplifier:0,duration:3600},{id:"minecraft:mining_fatigue",amplifier:1,duration:3600}]}}}}
+execute as @e[tag=vile_root_beer] at @s run function monasbrews:brewed_vile_root_beer
+
+# Vodka
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:potato",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:wheat",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","vodka"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#91D3FF","italic":false,"text":"Vodka"},"minecraft:custom_data":{vodka:true},"minecraft:tooltip_display":{hidden_components:["potion_contents"]},"minecraft:potion_contents":{custom_color:9556991},"minecraft:lore":[{"color":"blue","italic":false,"text":"80 Proof"}]}}}
+execute as @e[tag=vodka] at @s run function monasbrews:brewed_vodka
+
+# Zafiro Añejo
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:prismarine_crystals",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:lily_of_the_valley",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","zafiro_anejo"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#AABEC9","italic":false,"text":"Zafiro Añejo"},"minecraft:potion_contents":{custom_color:11189961},"minecraft:custom_data":{zafiro_anejo:true},"minecraft:lore":[{"color":"blue","italic":false,"text":"80 Proof"},{"color":"blue","italic":true,"text":"Breaking Bad"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=zafiro_anejo] at @s run function monasbrews:brewed_zafiro_anejo

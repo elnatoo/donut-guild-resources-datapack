@@ -1,0 +1,21 @@
+{
+	"parent": "monasbrews:root",
+	"rewards": {
+		"function": "monasbrews:underhill_deluxe/use_underhill_deluxe_1"
+	},		
+	"criteria": {
+    "potion": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:custom_data": {
+              "underhill_deluxe": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  }
+}

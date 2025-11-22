@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:insam_ju=true}] at @s run function monasbrews:insam_ju/use_insam_ju_2

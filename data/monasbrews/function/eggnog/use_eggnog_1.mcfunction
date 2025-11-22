@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:eggnog=true}] at @s run function monasbrews:eggnog/use_eggnog_2

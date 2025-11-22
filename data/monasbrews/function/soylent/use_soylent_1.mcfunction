@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:soylent=true}] at @s run function monasbrews:soylent/use_soylent_2

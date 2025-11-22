@@ -1,0 +1,27 @@
+# Milk Bottle
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:glass_bottle",count:3}}] at @s run summon item ~ ~ ~ {Tags:["brew","milk_bottle"],Item:{id:"minecraft:potion",count:3,components:{"minecraft:custom_name":{"italic":false,"text":"Milk Bottle"},"minecraft:custom_data":{milk_bottle:true},"minecraft:potion_contents":{custom_color:16777215},"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=milk_bottle] at @s run function monasbrews:brewed_milk_bottle
+
+# Chocolate Milk
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:cocoa_beans",count:2}}] at @s run summon item ~ ~ ~ {Tags:["brew","chocolate_milk"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{chocolate_milk:true},"minecraft:custom_name":{"color":"#693A26","italic":false,"text":"Chocolate Milk"},"minecraft:potion_contents":{custom_color:6896166},"minecraft:lore":[{"color":"blue","italic":false,"text":"Speed (00:20)"},{"color":"blue","italic":false,"text":"Regeneration (00:20)"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=chocolate_milk] at @s run function monasbrews:brewed_chocolate_milk
+
+# Eggnog
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:blue_egg",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","eggnog"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{eggnog:true},"minecraft:potion_contents":{custom_color:16772295},"minecraft:custom_name":{"color":"#FFECC7","italic":false,"text":"Eggnog"},"minecraft:lore":[{"color":"blue","italic":false,"text":"Luck (04:00)"},{"color":"blue","italic":false,"text":"Health Boost (04:00)"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=eggnog] at @s run function monasbrews:brewed_eggnog
+
+# Horchata
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:azure_bluet",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","horchata"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#FFECC7","italic":false,"text":"Horchata"},"minecraft:potion_contents":{custom_color:16772295},"minecraft:tooltip_display":{hidden_components:["potion_contents"]},"minecraft:custom_data":{horchata:true},"minecraft:lore":[{"color":"blue","italic":false,"text":"Speed (02:00)"},{"color":"blue","italic":false,"text":"Jump Boost (02:00)"}]}}}
+execute as @e[tag=horchata] at @s run function monasbrews:brewed_horchata
+
+# Hot Cocoa
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:cocoa_beans",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:magma_block",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","hot_cocoa"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#693A26","italic":false,"text":"Hot Cocoa"},"minecraft:potion_contents":{custom_color:6896166},"minecraft:custom_data":{hot_cocoa:true},"minecraft:lore":[{"color":"blue","italic":false,"text":"Resistance (03:00)"},{"color":"blue","italic":false,"text":"Speed (03:00)"},{"color":"blue","italic":false,"text":"Regeneration II (00:30)"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=hot_cocoa] at @s run function monasbrews:brewed_hot_cocoa
+
+# Soylent
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:apple",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:bread",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:beef",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:carrot",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","soylent"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#E2E0E5","italic":false,"text":"Soylent"},"minecraft:food":{nutrition:14,saturation:10,can_always_eat:true},"minecraft:tooltip_display":{hidden_components:["potion_contents"]},"minecraft:lore":[{"color":"blue","italic":false,"text":"Regeneration (00:45)"},{"color":"blue","italic":true,"text":"Starco Brands"}],"minecraft:potion_contents":{custom_color:14868709,custom_effects:[{id:"minecraft:regeneration",amplifier:0,duration:900}]},"minecraft:custom_data":{soylent:true}}}}
+execute as @e[tag=soylent] at @s run function monasbrews:brewed_soylent
+
+# Strawberry Milk
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sweet_berries",count:2}}] at @s run summon item ~ ~ ~ {Tags:["brew","strawberry_milk"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#d4a8a9","italic":false,"text":"Strawberry Milk"},"minecraft:custom_data":{strawberry_milk:true},"minecraft:tooltip_display":{hidden_components:["potion_contents"]},"minecraft:potion_contents":{custom_color:13936809},"minecraft:lore":[{"color":"blue","italic":false,"text":"Regeneration II (00:30)"},{"color":"red","italic":false,"text":"Slowness (00:30)"}]}}}
+execute as @e[tag=strawberry_milk] at @s run function monasbrews:brewed_strawberry_milk

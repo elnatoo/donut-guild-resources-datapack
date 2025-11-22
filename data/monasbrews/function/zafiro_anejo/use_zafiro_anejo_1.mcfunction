@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:zafiro_anejo=true}] at @s run function monasbrews:zafiro_anejo/use_zafiro_anejo_2

@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:djinn=true}] at @s run function monasbrews:djinn/use_djinn_2

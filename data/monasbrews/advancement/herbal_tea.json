@@ -1,0 +1,21 @@
+{
+	"parent": "monasbrews:root",
+	"rewards": {
+		"function": "monasbrews:herbal_tea/use_herbal_tea_1"
+	},		
+	"criteria": {
+    "potion": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:custom_data": {
+              "herbal_tea": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  }
+}

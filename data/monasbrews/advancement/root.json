@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "potion": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:custom_data": {
+              "test": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  }
+}

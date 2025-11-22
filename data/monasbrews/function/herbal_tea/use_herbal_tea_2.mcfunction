@@ -1,0 +1,1 @@
+tag @s add herbal_tea_effect

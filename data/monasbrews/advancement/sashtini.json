@@ -1,0 +1,21 @@
+{
+	"parent": "monasbrews:root",
+	"rewards": {
+		"function": "monasbrews:sashtini/use_sashtini_1"
+	},		
+	"criteria": {
+    "potion": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:custom_data": {
+              "sashtini": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  }
+}

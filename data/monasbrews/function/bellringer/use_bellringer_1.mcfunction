@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:bellringer=true}] at @s run function monasbrews:bellringer/use_bellringer_2

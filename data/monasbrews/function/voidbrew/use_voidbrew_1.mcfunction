@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:voidbrew=true}] at @s run function monasbrews:voidbrew/use_voidbrew_2

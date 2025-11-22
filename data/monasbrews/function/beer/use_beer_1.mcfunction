@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:beer=true}] at @s run function monasbrews:beer/use_beer_2
