@@ -1,1 +1,0 @@
-execute as @a[advancements={monasbrews:ostara=true}] at @s run function monasbrews:ostara/use_ostara_2

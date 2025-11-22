@@ -2,6 +2,10 @@
 execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:glass_bottle",count:3}}] at @s run summon item ~ ~ ~ {Tags:["brew","milk_bottle"],Item:{id:"minecraft:potion",count:3,components:{"minecraft:custom_name":{"italic":false,"text":"Milk Bottle"},"minecraft:custom_data":{milk_bottle:true},"minecraft:potion_contents":{custom_color:16777215},"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
 execute as @e[tag=milk_bottle] at @s run function monasbrews:brewed_milk_bottle
 
+# Banana Milkshake
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:carrot",components:{"minecraft:item_model":"bananas:banana","minecraft:item_name":"Banana"},count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:ice",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","banana_milk"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{banana_milk:true},"minecraft:custom_name":{"color":"#f8bd0d","italic":false,"text":"Banana Milkshake"},"minecraft:potion_contents":{custom_color:15775237},"minecraft:lore":[{"color":"blue","italic":false,"text":"Strength II (1:00)"},{"color":"blue","italic":false,"text":"Regeneration (00:20)"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
+execute as @e[tag=banana_milk] at @s run function monasbrews:brewed_banana_milkshake
+
 # Chocolate Milk
 execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:cocoa_beans",count:2}}] at @s run summon item ~ ~ ~ {Tags:["brew","chocolate_milk"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{chocolate_milk:true},"minecraft:custom_name":{"color":"#693A26","italic":false,"text":"Chocolate Milk"},"minecraft:potion_contents":{custom_color:6896166},"minecraft:lore":[{"color":"blue","italic":false,"text":"Speed (00:20)"},{"color":"blue","italic":false,"text":"Regeneration (00:20)"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
 execute as @e[tag=chocolate_milk] at @s run function monasbrews:brewed_chocolate_milk

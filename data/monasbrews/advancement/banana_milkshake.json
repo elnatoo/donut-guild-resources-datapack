@@ -1,7 +1,7 @@
 {
 	"parent": "monasbrews:root",
 	"rewards": {
-		"function": "monasbrews:bloody_mary/use_bloody_mary_1"
+		"function": "monasbrews:banana_milkshake/use_banana_milkshake_1"
 	},		
 	"criteria": {
     "potion": {
@@ -10,7 +10,7 @@
           "items": "minecraft:potion",
           "predicates": {
             "minecraft:custom_data": {
-              "bloody_mary": true
+              "banana_milkshake": true
             }
           }
         }
