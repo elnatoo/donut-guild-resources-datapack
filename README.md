@@ -9,6 +9,6 @@ Custom disc/item textures by elNatoo
 
 Other datapack credits:
 -----------------------
-- Original "Banana!" datapack by BananaKingXO: "https://modrinth.com/datapack/banana!"
+- Original "Banana!" datapack by BananaKingXO: [[https://modrinth.com/datapack/banana!]]
 - Creeper retexture by LouBabylonia: https://modrinth.com/resourcepack/creeper-recharged
 - Polar Bear retexture by DiegoxDios: https://www.curseforge.com/minecraft/texture-packs/warm-polar-bear
