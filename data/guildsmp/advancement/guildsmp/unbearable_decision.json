@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_salmon"
+    },
+    "title": "Unbearable Decision",
+    "description": "You poked the bear, didn't you?",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/root",
+  "criteria": {
+    "hurt_by_bear": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:polar_bear"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

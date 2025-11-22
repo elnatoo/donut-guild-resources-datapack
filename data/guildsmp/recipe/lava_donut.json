@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "donuts",
+  "category": "misc",
+  "pattern": [
+    "blb",
+    "eme",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:wheat"
+    ],
+    "e": [
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:egg"
+    ],
+    "m": [
+      "minecraft:milk_bucket"
+    ],
+    "l": [
+      "minecraft:lava_bucket"
+    ],
+    "b": [
+      "minecraft:blaze_powder"
+    ]
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:item_model": "guildsmp:lava_donut",
+      "minecraft:item_name": "Lava Donut",
+      "minecraft:consumable": {
+        "on_consume_effects":[
+            {
+                "type": "apply_effects",
+                "effects":  [
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "show_particles": false
+                    }
+                ]
+            }
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": "Sweet n' Spicy!",
+          "color": "gold"
+        }
+      ]
+    },
+    "count": 12
+  },
+  "show_notification": true
+}

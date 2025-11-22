@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pipes",
+  "category": "misc",
+  "pattern": [
+    " #i",
+    "#i#",
+    "i# "
+  ],
+  "key": {
+    "#": "minecraft:netherite_scrap",
+    "i": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:goat_horn",
+    "components": {
+      "minecraft:item_model": "guildsmp:ancient_pipe",
+      "minecraft:item_name": "Ancient Pipe",
+      "minecraft:weapon": {
+        "item_damage_per_attack": 2,
+        "disable_blocking_for_seconds": 6
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:netherite_scrap"
+      },
+      "minecraft:repair_cost": 1,
+      "minecraft:rarity": "epic",
+      "minecraft:break_sound": "minecraft:block.netherite_block.break",
+      "minecraft:instrument":{
+        "description":"Ancient Pipe",
+        "use_duration": 8,
+        "range": 80,
+        "sound_event": {
+          "sound_id":"guildsmp:pipes.netherite_pipe"
+          }
+        }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

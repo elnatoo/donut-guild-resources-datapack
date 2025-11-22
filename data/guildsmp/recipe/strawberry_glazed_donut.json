@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "donuts",
+  "category": "misc",
+  "pattern": [
+    "s#s",
+    "eme",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:wheat"
+    ],
+    "e": [
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:egg"
+    ],
+    "m": [
+      "minecraft:milk_bucket"
+    ],
+    "s": [
+      "minecraft:sugar"
+    ],
+    "#": [
+      "minecraft:pink_dye"
+    ]
+  },
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_model": "guildsmp:strawberry_glazed_donut",
+      "minecraft:item_name": "Strawberry Glazed Donut"
+    },
+    "count": 12
+  },
+  "show_notification": true
+}

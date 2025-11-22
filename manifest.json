@@ -1,0 +1,32 @@
+{
+  "packTitle": "Donut Guild Resources",
+  "packDescription": "Custom assets for the GuildSMP",
+  "packVersion": 34,
+  "packIcon": "pack.png",
+  "songs": [
+    {
+      "title": "Earth",
+      "author": "Shauny Jang",
+      "length": 340,
+      "filePath": "assets/minecraft/sounds/records/music_disc_earth.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_earth.png",
+      "animated": false
+    },
+    {
+      "title": "Mojam",
+      "author": "Peter Hont",
+      "length": 100,
+      "filePath": "assets/minecraft/sounds/records/music_disc_mojam.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_mojam.png",
+      "animated": false
+    },
+    {
+      "title": "Biome Drop",
+      "author": "Biome Labs",
+      "length": 191,
+      "filePath": "assets/minecraft/sounds/records/music_disc_biome_drop.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_biome_drop.png",
+      "animated": false
+    }
+  ]
+}

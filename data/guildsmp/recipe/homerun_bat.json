@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:netherite_upgrade_smithing_template",
+    "w": "minecraft:weeping_vines",
+    "n": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "  X",
+    "wn ",
+    "#w "
+  ],
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:enchantments": {
+        "minecraft:knockback": 10
+      },
+      "minecraft:weapon": {
+        "item_damage_per_attack": 1,
+        "disable_blocking_for_seconds": 6
+      },
+      "minecraft:max_damage": 500,
+      "minecraft:item_model": "guildsmp:homerun_bat",
+      "minecraft:item_name": "Home-Run Bat",
+      "minecraft:equippable": {
+        "slot": "mainhand",
+        "allowed_entities": [
+          "minecraft:zombie",
+          "minecraft:player"
+        ]
+      }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

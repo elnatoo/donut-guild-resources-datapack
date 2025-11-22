@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "eat_creeper_donut": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pumpkin_pie",
+          "components": {
+            "minecraft:item_model": "guildsmp:sculked_donut"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "guildsmp:donuts/use_sculked_donut"
+  }
+}

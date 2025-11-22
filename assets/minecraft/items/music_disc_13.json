@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/music_disc_13"
+        },
+        "cases": [
+            {
+                "when": "biome_drop",
+                "model": {
+                    "type": "model",
+                    "model": "item/biome_drop"
+                }
+            },
+            {
+                "when": "earth",
+                "model": {
+                    "type": "model",
+                    "model": "item/earth"
+                }
+            },
+            {
+                "when": "mojam",
+                "model": {
+                    "type": "model",
+                    "model": "item/mojam"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "guildsmp:guildsmp/defeat_illusioner",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:illusioner"
+        },
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "effects": {
+              "minecraft:invisibility": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": "Show an Illusioner a magic trick!",
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "minecraft:potion_contents": "minecraft:invisibility"
+      },
+      "count": 1,
+      "id": "minecraft:potion"
+    },
+    "title": "Who's the Illusioner Now?",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

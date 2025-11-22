@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_name": "Fish Stick",
+        "minecraft:item_model": "guildsmp:fish_stick"
+      }
+    },
+    "title": "Fish Stick",
+    "description": "Recipe unlocked!",
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "guildsmp:recipes/root",
+  "criteria": {
+    "get_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cod",
+              "minecraft:salmon",
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "guildsmp:fish_stick"
+    ]
+  }
+}

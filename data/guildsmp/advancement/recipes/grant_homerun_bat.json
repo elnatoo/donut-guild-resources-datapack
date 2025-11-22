@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:item_name": "Home-Run Bat",
+        "minecraft:item_model": "guildsmp:homerun_bat"
+      }
+    },
+    "title": "Home-Run Bat",
+    "description": "Recipe unlocked!",
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "guildsmp:recipes/root",
+  "criteria": {
+    "get_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:weeping_vines",
+              "minecraft:netherite_upgrade_smithing_template"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "guildsmp:homerun_bat"
+    ]
+  }
+}

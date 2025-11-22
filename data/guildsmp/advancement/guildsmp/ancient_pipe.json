@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn",
+      "components": {
+        "minecraft:item_name": "Ancient Pipe",
+        "minecraft:item_model": "guildsmp:ancient_pipe"
+      }
+    },
+    "title": "Corroded Pipeline",
+    "description": "Craft the Ancient Pipe!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/pipe_assembly",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_name": "Ancient Pipe",
+              "minecraft:item_model": "guildsmp:ancient_pipe"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

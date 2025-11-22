@@ -1,0 +1,8 @@
+{
+  "description": "Biome Drop - Biome Labs",
+  "comparator_output": 15,
+  "length_in_seconds": 191,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.biome_drop"
+  }
+}

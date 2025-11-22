@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:wooden_tool_materials",
+    "r": "minecraft:rabbit_hide"
+  },
+  "pattern": [
+    "  X",
+    "rX ",
+    "#r "
+  ],
+  "result": {
+    "id": "minecraft:copper_sword",
+    "components": {
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:enchantments": {
+        "minecraft:knockback": 5
+      },
+      "minecraft:weapon": {
+        "item_damage_per_attack": 1,
+        "disable_blocking_for_seconds": 5
+      },
+      "minecraft:max_damage": 250,
+      "minecraft:item_model": "guildsmp:baseball_bat",
+      "minecraft:item_name": "Baseball Bat",
+      "minecraft:equippable": {
+        "slot": "mainhand",
+        "allowed_entities": [
+          "minecraft:zombie",
+          "minecraft:player"
+        ]
+      }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

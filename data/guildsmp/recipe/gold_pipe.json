@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pipes",
+  "category": "misc",
+  "pattern": [
+    " #i",
+    "#i#",
+    "i# "
+  ],
+  "key": {
+    "#": "minecraft:gold_nugget",
+    "i": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:goat_horn",
+    "components": {
+      "minecraft:item_model": "guildsmp:gold_pipe",
+      "minecraft:item_name": "Gold Pipe",
+      "minecraft:weapon": {
+        "item_damage_per_attack": 6,
+        "disable_blocking_for_seconds": 1
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:gold_ingot"
+      },
+      "minecraft:repair_cost": 1,
+      "minecraft:rarity": "uncommon",
+      "minecraft:break_sound": "minecraft:block.metal.break",
+      "minecraft:instrument":{
+        "description":"Gold Pipe",
+        "use_duration": 10,
+        "range": 32,
+        "sound_event": {
+          "sound_id":"guildsmp:pipes.gold_pipe"
+          }
+        }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "donuts",
+  "category": "misc",
+  "pattern": [
+    "sss",
+    "eme",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:wheat"
+    ],
+    "e": [
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:egg"
+    ],
+    "m": [
+      "minecraft:milk_bucket"
+    ],
+    "s": [
+      "minecraft:sugar"
+    ]
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+        "minecraft:item_model": "guildsmp:glazed_donut",
+        "minecraft:item_name": "Glazed Donut"
+    },
+    "count": 12
+  },
+  "show_notification": true
+}

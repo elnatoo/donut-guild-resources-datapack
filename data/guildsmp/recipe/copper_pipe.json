@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pipes",
+  "category": "misc",
+  "pattern": [
+    " #i",
+    "#i#",
+    "i# "
+  ],
+  "key": {
+    "#": "minecraft:copper_nugget",
+    "i": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:goat_horn",
+    "components": {
+      "minecraft:item_model": "guildsmp:copper_pipe",
+      "minecraft:item_name": "Copper Pipe",
+      "minecraft:weapon": {
+        "item_damage_per_attack": 4,
+        "disable_blocking_for_seconds": 2
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      },
+      "minecraft:repair_cost": 1,
+      "minecraft:rarity": "uncommon",
+      "minecraft:break_sound": "minecraft:block.metal.break",
+      "minecraft:instrument":{
+        "description":"Copper Pipe",
+        "use_duration": 7,
+        "range": 48,
+        "sound_event": {
+          "sound_id":"guildsmp:pipes.copper_pipe"
+          }
+        }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

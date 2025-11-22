@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "donuts",
+  "category": "misc",
+  "pattern": [
+    "ccc",
+    "eme",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:wheat"
+    ],
+    "e": [
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:egg"
+    ],
+    "m": [
+      "minecraft:milk_bucket"
+    ],
+    "c": [
+      "minecraft:cocoa_beans"
+    ]
+  },
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_model": "guildsmp:chocolate_donut",
+      "minecraft:item_name": "Chocolate Donut",
+      "minecraft:consumable": {
+        "on_consume_effects":[
+            {
+                "type": "apply_effects",
+                "effects":  [
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "show_particles": false
+                    }
+                ]
+            }
+        ]
+      }
+    },
+    "count": 12
+  },
+  "show_notification": true
+}

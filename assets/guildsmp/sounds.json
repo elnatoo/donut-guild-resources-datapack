@@ -1,0 +1,41 @@
+{
+  "pipes.metal_pipe": {
+    "sounds": [
+      "pipes/metal_pipe"
+    ]
+  },
+  "pipes.copper_pipe": {
+    "sounds": [
+      "pipes/copper_pipe"
+    ]
+  },
+  "pipes.netherite_pipe": {
+    "sounds": [
+      "pipes/netherite_pipe"
+    ]
+  },
+  "effects.fish": {
+    "sounds": [
+      "effects/fish"
+    ]
+  },
+  "effects.bonk": {
+    "sounds": [
+      "effects/bonk"
+    ]
+  },
+  "effects.homerun_bat": {
+    "sounds": [
+      "effects/homerun_bat"
+    ]
+  },
+  "effects.banana": {
+    "sounds": [
+      {
+        "name": "effects/banana",
+        "volume": 1,
+        "attenuation_distance": 16000
+      }
+    ]
+  }
+}

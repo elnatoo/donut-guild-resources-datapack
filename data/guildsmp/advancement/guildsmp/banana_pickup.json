@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot",
+      "components": {
+        "minecraft:item_name": "Banana",
+        "minecraft:item_model": "bananas:banana"
+      }
+    },
+    "title": "Potassium!",
+    "description": "Kris get the Banana!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carrot",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_name": "Banana",
+              "minecraft:item_model": "bananas:banana"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "donuts",
+  "category": "misc",
+  "pattern": [
+    "#c#",
+    "eme",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:wheat"
+    ],
+    "e": [
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:egg"
+    ],
+    "m": [
+      "minecraft:milk_bucket"
+    ],
+    "#": [
+      "minecraft:dragon_breath"
+    ],
+    "c": [
+      "minecraft:fire_charge"
+    ]
+  },
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_model": "guildsmp:dragon_breath_donut",
+      "minecraft:item_name": "Dragon Breath Donut",
+      "minecraft:consumable": {
+        "on_consume_effects":[
+            {
+                "type": "apply_effects",
+                "effects":  [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 1,
+                      "duration": 300,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 100,
+                      "show_particles": false
+                    }
+                ]
+            }
+        ]
+      },
+      "minecraft:lore": [
+        {
+            "text": "Caution: Bad breath!",
+            "color": "dark_purple"
+        }
+      ],
+      "rarity": "epic"
+    },
+    "count": 6
+  },
+  "show_notification": true
+}

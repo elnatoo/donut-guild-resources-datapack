@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:item_name": "Baseball Bat",
+        "minecraft:item_model": "guildsmp:homerun_bat"
+      }
+    },
+    "title": "The Big Leagues",
+    "description": "Smith your Baseball Bat with a Netherite Upgrade",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/baseball_bat",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_name": "Home-Run Bat",
+              "minecraft:item_model": "guildsmp:homerun_bat"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 40
+  }
+}

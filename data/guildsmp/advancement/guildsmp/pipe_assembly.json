@@ -1,0 +1,48 @@
+{
+    "parent": "guildsmp:guildsmp/root",
+    "criteria": {
+        "requirement": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:item_name": "Metal Pipe",
+                            "minecraft:item_model": "guildsmp:metal_pipe"
+                        }
+                    },
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:item_name": "Copper Pipe",
+                            "minecraft:item_model": "guildsmp:copper_pipe"
+                        }
+                    },
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:item_name": "Gold Pipe",
+                            "minecraft:item_model": "guildsmp:gold_pipe"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": "Craft all 3 metallic Pipes",
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:goat_horn",
+            "components": {
+                "minecraft:item_name": "Metal Pipe",
+                "minecraft:item_model": "guildsmp:metal_pipe"
+            }
+        },
+        "title": "Metallic Sounds"
+    },
+    "rewards": {
+        "experience": 40
+    }
+}

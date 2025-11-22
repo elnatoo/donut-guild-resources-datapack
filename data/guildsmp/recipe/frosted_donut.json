@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "donuts",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "eme",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:wheat"
+    ],
+    "e": [
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:egg"
+    ],
+    "m": [
+      "minecraft:milk_bucket"
+    ],
+    "#": [
+      "minecraft:snow"
+    ]
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:item_model": "guildsmp:frosted_donut",
+      "minecraft:item_name": "Frosted Donut",
+      "minecraft:consumable": {
+        "on_consume_effects":[
+            {
+                "type": "apply_effects",
+                "effects":  [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 0,
+                      "duration": 200,
+                      "show_particles": false
+                    }
+                ]
+            }
+        ]
+      },
+      "minecraft:lore": [
+        {
+            "text": "Brrr...!",
+            "color": "aqua"
+        }
+      ]
+    },
+    "count": 12
+  },
+  "show_notification": true
+}

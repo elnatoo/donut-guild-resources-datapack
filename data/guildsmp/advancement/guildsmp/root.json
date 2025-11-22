@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple",
+      "components": {
+        "minecraft:item_model": "guildsmp:strawberry_glazed_donut_with_sprinkles"
+      }
+    },
+    "title": "Donut Guild",
+    "description": "Special advancements on the GuildSMP",
+    "background": "minecraft:block/dark_prismarine",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

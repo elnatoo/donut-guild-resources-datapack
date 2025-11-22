@@ -1,0 +1,65 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 10,
+      "predicate": {
+        "biomes": "#minecraft:is_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -10,
+      "predicate": {
+        "biomes": "#minecraft:is_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 10,
+      "predicate": {
+        "biomes": "#minecraft:is_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -10,
+      "predicate": {
+        "biomes": "#minecraft:is_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 10,
+      "offsetZ": 10,
+      "predicate": {
+        "biomes": "#minecraft:is_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 10,
+      "offsetZ": -10,
+      "predicate": {
+        "biomes": "#minecraft:is_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -10,
+      "offsetZ": 10,
+      "predicate": {
+        "biomes": "#minecraft:is_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -10,
+      "offsetZ": -10,
+      "predicate": {
+        "biomes": "#minecraft:is_taiga"
+      }
+    }
+  ]
+}

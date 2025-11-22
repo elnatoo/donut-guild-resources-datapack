@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bread",
+      "components": {
+        "minecraft:item_name": "Glazed Donut",
+        "minecraft:item_model": "guildsmp:glazed_donut"
+      }
+    },
+    "title": "Donut Crafter",
+    "description": "Craft your first donut!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/root",
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread",
+            "components": {
+              "minecraft:item_model": "guildsmp:glazed_donut"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple",
+      "components": {
+        "minecraft:item_name": "Golden Donut",
+        "minecraft:item_model": "guildsmp:golden_donut"
+      }
+    },
+    "title": "Donut Master",
+    "description": "Collect all the donuts!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/donut_crafter",
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:lava_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:glazed_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:strawberry_glazed_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:strawberry_glazed_donut_with_sprinkles"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:chocolate_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:frosted_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:fiery_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:creepy_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:slime_jelly_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:breezy_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:golden_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:sculked_donut"
+            }
+          },
+          {
+            "items": "#guildsmp:donuts",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_model": "guildsmp:dragon_breath_donut"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

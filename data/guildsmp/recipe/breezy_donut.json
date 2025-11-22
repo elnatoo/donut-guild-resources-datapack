@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "donuts",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "eme",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:wheat"
+    ],
+    "e": [
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:egg"
+    ],
+    "m": [
+      "minecraft:milk_bucket"
+    ],
+    "#": [
+      "minecraft:breeze_rod"
+    ]
+  },
+  "result": {
+    "id": "minecraft:carrot",
+    "components": {
+      "minecraft:item_model": "guildsmp:breezy_donut",
+      "minecraft:item_name": "Breezy Donut",
+      "minecraft:lore": [
+        {
+            "text": "Need a boost?",
+            "color": "blue"
+        }
+      ]
+    },
+    "count": 12
+  },
+  "show_notification": true
+}

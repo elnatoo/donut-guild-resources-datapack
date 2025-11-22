@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot",
+      "components": {
+        "minecraft:item_name": {
+                "color":"gold",
+                "text":"Golden Banana"
+              },
+        "minecraft:item_model": "bananas:golden_banana"
+      }
+    },
+    "title": "Oh, Banana!",
+    "description": "Find the fabled Golden Banana near a Jungle Pyramid!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/banana_pickup",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_carrot",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_name": {
+                "color":"gold",
+                "text":"Golden Banana"
+              },
+              "minecraft:item_model": "bananas:golden_banana"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "guildsmp:play_banana_sound",
+    "experience": 30
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "donuts",
+  "category": "misc",
+  "pattern": [
+    "l#l",
+    "eme",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:wheat"
+    ],
+    "e": [
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:egg"
+    ],
+    "m": [
+      "minecraft:milk_bucket"
+    ],
+    "#": [
+      "minecraft:fire_charge"
+    ],
+    "l": [
+        "minecraft:oak_leaves",
+        "minecraft:birch_leaves",
+        "minecraft:spruce_leaves",
+        "minecraft:dark_oak_leaves",
+        "minecraft:jungle_leaves",
+        "minecraft:acacia_leaves",
+        "minecraft:mangrove_leaves",
+        "minecraft:azalea_leaves"
+    ]
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:item_model": "guildsmp:creepy_donut",
+      "minecraft:item_name": "Creepy Donut",
+      "minecraft:consumable": {
+        "sound": "minecraft:entity.creeper.hurt",
+        "on_consume_effects":[
+            {
+                "type": "play_sound",
+                "sound": "minecraft:entity.creeper.primed"
+            }
+        ]
+      },
+      "minecraft:lore": [
+        {
+            "text": "Donut! Aw man!",
+            "color": "dark_green"
+        }
+      ]
+    },
+    "count": 12
+  },
+  "show_notification": true
+}

@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "donuts",
+  "category": "misc",
+  "pattern": [
+    "s#s",
+    "eme",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:wheat"
+    ],
+    "e": [
+      "minecraft:blue_egg",
+      "minecraft:brown_egg",
+      "minecraft:egg"
+    ],
+    "m": [
+      "minecraft:milk_bucket"
+    ],
+    "s": [
+      "minecraft:sculk"
+    ],
+    "#": [
+      "minecraft:sculk_shrieker"
+    ]
+  },
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_model": "guildsmp:sculked_donut",
+      "minecraft:item_name": "Sculked Donut",
+      "minecraft:consumable": {
+        "on_consume_effects": [
+            {
+                "type": "play_sound",
+                "sound": "minecraft:entity.warden.sonic_boom"
+            }
+        ]
+      },
+      "minecraft:lore": [
+        {
+            "text": "Do the roar!",
+            "color": "dark_blue"
+        }
+      ],
+      "rarity": "rare"
+    },
+    "count": 6
+  },
+  "show_notification": true
+}

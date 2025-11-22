@@ -1,0 +1,8 @@
+{
+  "description": "Peter Hont - Mojam",
+  "comparator_output": 10,
+  "length_in_seconds": 100,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.mojam"
+  }
+}

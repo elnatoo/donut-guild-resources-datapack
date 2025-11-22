@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "GuildSMP Season 3 Resources",
+        "color": "gold"
+      }
+    ],
+    "min_format": 88,
+    "max_format": [88, 0]
+  }
+}

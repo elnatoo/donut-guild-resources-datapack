@@ -1,0 +1,4 @@
+give @p minecraft:goat_horn[instrument={description:'Metal Pipe',use_duration:10,range:64,sound_event:{"sound_id":"guildsmp:pipes.metal_pipe"}},item_model="guildsmp:metal_pipe",minecraft:item_name="Metal Pipe"] 1
+give @p minecraft:goat_horn[instrument={description:'Copper Pipe',use_duration:7,range:48,sound_event:{"sound_id":"guildsmp:pipes.copper_pipe"}},item_model="guildsmp:copper_pipe",minecraft:item_name="Copper Pipe"] 1
+give @p minecraft:goat_horn[instrument={description:'Gold Pipe',use_duration:10,range:32,sound_event:{"sound_id":"guildsmp:pipes.copper_pipe"}},item_model="guildsmp:gold_pipe",minecraft:item_name="Gold Pipe"] 1
+give @p minecraft:goat_horn[instrument={description:'Ancient Pipe',use_duration:8,range:80,sound_event:{"sound_id":"guildsmp:pipes.netherite_pipe"}},item_model="guildsmp:ancient_pipe",minecraft:item_name="Ancient Pipe"] 1

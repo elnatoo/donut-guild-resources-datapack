@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "eat_creeper_donut": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:carrot",
+          "components": {
+            "minecraft:item_model": "guildsmp:breezy_donut"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "guildsmp:donuts/use_breezy_donut"
+  }
+}

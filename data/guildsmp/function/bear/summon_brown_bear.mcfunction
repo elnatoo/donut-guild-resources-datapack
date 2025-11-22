@@ -1,0 +1,4 @@
+summon polar_bear ~1 ~ ~1 {Tags:[brown_bear],Team:hiddenNametag,CustomName:"Brown Bear",CustomNameVisible:false,OnGround:1b,DeathLootTable:"minecraft:entities/brown_bear",Health:60f,attributes:[{id:"minecraft:armor",base:15},{id:"minecraft:armor_toughness",base:5},{id:"minecraft:attack_damage",base:12},{id:"minecraft:attack_knockback",base:1},{id:"minecraft:knockback_resistance",base:1},{id:"minecraft:max_health",base:60},{id:"minecraft:movement_speed",base:0.2},{id:"minecraft:water_movement_efficiency",base:0.35},{id:"scale",base:1.05}]}
+
+# DEBUG
+# tellraw @a "Bear Spawned"

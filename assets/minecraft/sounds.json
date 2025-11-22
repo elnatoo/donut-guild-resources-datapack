@@ -1,0 +1,26 @@
+{
+    "music_disc.biome_drop": {
+        "sounds": [
+            {
+                "name": "records/music_disc_biome_drop",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.earth": {
+        "sounds": [
+            {
+                "name": "records/music_disc_earth",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.mojam": {
+        "sounds": [
+            {
+                "name": "records/music_disc_mojam",
+                "stream": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_sword",
+      "components": {
+        "minecraft:item_name": "Baseball Bat",
+        "minecraft:item_model": "guildsmp:baseball_bat"
+      }
+    },
+    "title": "Raise Up Your Bat",
+    "description": "Craft a Baseball Bat!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_sword",
+            "count": {
+              "min": 1
+            },
+            "components": {
+              "minecraft:item_name": "Baseball Bat",
+              "minecraft:item_model": "guildsmp:baseball_bat"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

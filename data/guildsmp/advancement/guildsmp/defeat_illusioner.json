@@ -1,0 +1,29 @@
+{
+  "parent": "guildsmp:guildsmp/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:illusioner"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": "Defeat an Illusioner",
+    "frame": "task",
+    "icon": {
+      "components": {
+        "minecraft:potion_contents": "minecraft:invisibility"
+      },
+      "id": "minecraft:potion"
+    },
+    "title": "The Forgotten Illager",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

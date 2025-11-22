@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "minecraft:item_name": "Baseball Bat",
+        "minecraft:item_model": "guildsmp:baseball_bat"
+      }
+    },
+    "title": "Baseball Bat",
+    "description": "Recipe unlocked!",
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "guildsmp:recipes/root",
+  "criteria": {
+    "get_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick",
+              "minecraft:rabbit_hide"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "guildsmp:baseball_bat"
+    ]
+  }
+}
