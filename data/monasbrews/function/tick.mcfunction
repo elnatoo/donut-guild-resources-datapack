@@ -15,6 +15,9 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:milk_bucket",count:1}}] at @s i
 execute as @e[type=item,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{milk_bottle:true}}}}] at @s if block ~ ~ ~ cauldron run function monasbrews:detect_recipe_items_milk
 
 # Timers
+execute as @a[tag=grovomile_effect] run scoreboard players add @s grovomile 1
+execute as @a[tag=grovomile_effect] run execute if score @s grovomile matches 12000 as @s run function monasbrews:grovomile/use_grovomile_3
+
 execute as @e[type=!item,type=!blaze,type=!magma_cube,type=!ghast,type=!ender_dragon,type=!wither,type=!wither_skeleton,type=!strider,type=!zombified_piglin,type=!zoglin,type=!creaking] at @s if block ~ ~ ~ water_cauldron if block ~ ~-1 ~ soul_campfire[lit=true] run scoreboard players add @s boil_damage 1
 execute as @e[type=!item,type=!blaze,type=!magma_cube,type=!ghast,type=!ender_dragon,type=!wither,type=!wither_skeleton,type=!strider,type=!zombified_piglin,type=!zoglin,type=!creaking] at @s if block ~ ~ ~ water_cauldron if block ~ ~-1 ~ campfire[lit=true] run scoreboard players add @s boil_damage 1
 execute as @e[type=!item,type=!blaze,type=!magma_cube,type=!ghast,type=!ender_dragon,type=!wither,type=!wither_skeleton,type=!strider,type=!zombified_piglin,type=!zoglin,type=!creaking] at @s if block ~ ~ ~ water_cauldron if block ~ ~-1 ~ lava run scoreboard players add @s boil_damage 1
