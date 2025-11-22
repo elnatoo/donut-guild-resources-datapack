@@ -1,1 +1,0 @@
-execute as @a[advancements={monasbrews:underhill_deluxe=true}] run function monasbrews:underhill_deluxe/use_underhill_deluxe_2

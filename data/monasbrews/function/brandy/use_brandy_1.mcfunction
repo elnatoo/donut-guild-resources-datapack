@@ -1,1 +1,0 @@
-execute as @a[advancements={monasbrews:brandy=true}] at @s run function monasbrews:brandy/use_brandy_2

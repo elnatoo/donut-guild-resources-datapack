@@ -1,1 +1,0 @@
-execute as @a[advancements={monasbrews:bountiful_harvest=true}] at @s run function monasbrews:bountiful_harvest/use_bountiful_harvest_2

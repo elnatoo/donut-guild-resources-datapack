@@ -1,1 +1,0 @@
-execute as @a[advancements={monasbrews:rum=true}] at @s run function monasbrews:rum/use_rum_2
