@@ -1,6 +1,7 @@
 scoreboard objectives add time_since_last_rest custom:time_since_rest
 scoreboard objectives add time dummy
 scoreboard objectives add death_detection deathCount
+scoreboard objectives add grovomile dummy
 scoreboard objectives add help trigger
 scoreboard objectives add boil_damage dummy
 
