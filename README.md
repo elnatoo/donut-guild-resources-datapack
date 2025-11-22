@@ -9,7 +9,8 @@ Custom Music for music discs:
 - "Mojam" by Peter Hont
 - "Earth" by Shauny Jang
 
-Custom item textures by elNatoo
+Custom item textures (baseball bats, metal pipes, banana retexture, donuts, music discs) by elNatoo
 
 Reference datapacks/additional resources:
-- Original "Banana!" datapack by BananaKingXO: [https://modrinth.com/datapack/banana!](https://modrinth.com/datapack/banana!)
+- Original "Banana!" datapack/resource pack by BananaKingXO: [https://modrinth.com/datapack/banana!](https://modrinth.com/datapack/banana!)
+- Original Mona's Brews datapack by Monarchia: https://modrinth.com/datapack/monas-brews
