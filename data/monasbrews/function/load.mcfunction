@@ -3,7 +3,6 @@ scoreboard objectives add time dummy
 scoreboard objectives add death_detection deathCount
 scoreboard objectives add grovomile dummy
 scoreboard objectives add help trigger
-scoreboard objectives add boil_damage dummy
 
 team add creaking
 
