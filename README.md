@@ -13,5 +13,3 @@ Custom item textures by elNatoo
 
 Reference datapacks/additional resources:
 - Original "Banana!" datapack by BananaKingXO: [https://modrinth.com/datapack/banana!](https://modrinth.com/datapack/banana!)
-- Creeper retexture by LouBabylonia: https://modrinth.com/resourcepack/creeper-recharged
-- Polar Bear retexture by DiegoxDios: https://www.curseforge.com/minecraft/texture-packs/warm-polar-bear
