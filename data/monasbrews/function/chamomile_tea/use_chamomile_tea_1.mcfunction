@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:chamomile_tea=true}] at @s run function monasbrews:chamomile_tea/use_chamomile_tea_2
