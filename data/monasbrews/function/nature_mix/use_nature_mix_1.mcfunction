@@ -1,1 +1,0 @@
-execute as @a[advancements={monasbrews:nature_mix=true}] at @s run function monasbrews:nature_mix/use_nature_mix_2
