@@ -5,7 +5,7 @@
 # lore
 
 # Apple Juice
-execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:apple",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","apple_juice"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#E9AE0C","italic":false,"text":"Apple Juice"},"minecraft:potion_contents":{custom_color:15314444,custom_effects:[{id:"minecraft:speed",amplifier:0,duration:600}]}}}}
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:apple",count:2}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","apple_juice"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#E9AE0C","italic":false,"text":"Apple Juice"},"minecraft:potion_contents":{custom_color:15314444,custom_effects:[{id:"minecraft:speed",amplifier:0,duration:1000}]}}}}
 execute as @e[tag=apple_juice] at @s run function monasbrews:brewed_apple_juice
 
 # Bellringer
@@ -73,3 +73,15 @@ execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minec
 execute as @e[tag=worldbrew] at @s run function monasbrews:brewed_worldbrew
 
 # Ruh Roh! Natixio-made brews past this point!
+
+# Beetroot Syrup
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:8}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:beetroot",count:3}}] at @s run summon item ~ ~ ~ {Tags:["brew","beetroot_syrup"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:consumable":{consume_seconds:1.5,animation:"drink",sound:"item.honey_bottle.drink",has_consume_particles:false},"minecraft:custom_name":{"color":"#810621","italic":false,"text":"Beetroot Syrup"},"minecraft:potion_contents":{custom_color:8128026,custom_effects:[{id:"minecraft:speed",amplifier:1,duration:340},{id:"minecraft:regeneration",amplifier:1,duration:80}]}}}}
+execute as @e[tag=beetroot_syrup] at @s run function monasbrews:brewed_beetroot_syrup
+
+# Apple Syrup
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:8}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:apple",count:3}}] at @s run summon item ~ ~ ~ {Tags:["brew","apple_syrup"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:consumable":{consume_seconds:1.5,animation:"drink",sound:"item.honey_bottle.drink",has_consume_particles:false},"minecraft:custom_name":{"color":"#ff9011","italic":false,"text":"Apple Syrup"},"minecraft:potion_contents":{custom_color:16748303,custom_effects:[{id:"minecraft:speed",amplifier:1,duration:400},{id:"minecraft:regeneration",amplifier:1,duration:100}]}}}}
+execute as @e[tag=apple_syrup] at @s run function monasbrews:brewed_apple_syrup
+
+# Fruity Mix
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:beetroot",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:apple",count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:carrot",components:{"minecraft:item_model":"bananas:banana","minecraft:item_name":"Banana"},count:1}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:1}}] at @s run summon item ~ ~ ~ {Tags:["brew","fruity_mix"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:consumable":{consume_seconds:1.5,animation:"drink",sound:"entity.generic.drink",has_consume_particles:false},"minecraft:custom_name":{"color":"#e24b4b","italic":false,"text":"Fruity Mix"},"minecraft:potion_contents":{custom_color:14698825,custom_effects:[{id:"minecraft:speed",amplifier:1,duration:600},{id:"minecraft:regeneration",amplifier:1,duration:150},{id:"minecraft:instant_health",amplifier:1,duration:0}]}}}}
+execute as @e[tag=fruity_mix] at @s run function monasbrews:brewed_fruity_mix

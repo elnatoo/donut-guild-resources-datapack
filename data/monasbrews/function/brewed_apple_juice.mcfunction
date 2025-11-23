@@ -1,5 +1,5 @@
 execute as @e[tag=apple_juice,limit=1] run kill @e[type=item,nbt={Item:{id:"minecraft:glass_bottle",count:1}},limit=1,sort=nearest]
-execute as @e[tag=apple_juice,limit=1] run kill @e[type=item,nbt={Item:{id:"minecraft:apple",count:1}},limit=1,sort=nearest]
+execute as @e[tag=apple_juice,limit=1] run kill @e[type=item,nbt={Item:{id:"minecraft:apple",count:2}},limit=1,sort=nearest]
 execute as @e[tag=apple_juice,limit=1] run kill @e[type=item,nbt={Item:{id:"minecraft:sugar",count:1}},limit=1,sort=nearest]
 execute as @e[tag=apple_juice] run tag @s remove apple_juice
 
