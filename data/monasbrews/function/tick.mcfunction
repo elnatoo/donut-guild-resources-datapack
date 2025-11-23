@@ -30,6 +30,9 @@ execute as @a[tag=green_tea_effect] run execute if score #time time matches 1 ru
 # Herbal Tea
 execute as @a[tag=herbal_tea_effect] run execute if score #time time matches 1 run execute as @a[scores={time_since_last_rest=1}] run function monasbrews:herbal_tea/use_herbal_tea_3
 
+# Chamomile Tea
+execute as @a[tag=chamomile_tea_effect] run execute if score #time time matches 1 run execute as @a[scores={time_since_last_rest=1}] run function monasbrews:chamomile_tea/use_chamomile_tea_3
+
 # Death Reset
 execute as @a[scores={death_detection=1..}] run function monasbrews:death_reset
 
@@ -37,8 +40,3 @@ execute as @a[scores={death_detection=1..}] run function monasbrews:death_reset
 scoreboard players enable @a help
 execute as @a[scores={help=1..}] run function monasbrews:cmd_help
 execute as @a[tag=!informed] run function monasbrews:cmd_help
-
-# Natixio-made tick functions past this point!
-
-# Chamomile Tea
-execute as @a[tag=chamomile_tea_effect] run execute if score #time time matches 1 run execute as @a[scores={time_since_last_rest=1}] run function monasbrews:chamomile_tea/use_chamomile_tea_3

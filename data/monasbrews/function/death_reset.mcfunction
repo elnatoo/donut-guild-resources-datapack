@@ -11,11 +11,9 @@ advancement revoke @s only monasbrews:green_tea
 tag @s remove herbal_tea_effect
 advancement revoke @s only monasbrews:herbal_tea
 
-# Reset death detection score
-scoreboard players set @s death_detection 0
-
-# Natixio-made death_reset functions past this point!
-
 # Chamomile Tea
 tag @s remove chamomile_tea_effect
 advancement revoke @s only monasbrews:chamomile_tea
+
+# Reset death detection score
+scoreboard players set @s death_detection 0
