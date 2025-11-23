@@ -75,7 +75,7 @@ execute as @e[tag=worldbrew] at @s run function monasbrews:brewed_worldbrew
 # Ruh Roh! Natixio-made brews past this point!
 
 # Beetroot Syrup
-execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:8}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:beetroot",count:3}}] at @s run summon item ~ ~ ~ {Tags:["brew","beetroot_syrup"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:consumable":{consume_seconds:1.5,animation:"drink",sound:"item.honey_bottle.drink",has_consume_particles:false},"minecraft:custom_name":{"color":"#810621","italic":false,"text":"Beetroot Syrup"},"minecraft:potion_contents":{custom_color:8128026,custom_effects:[{id:"minecraft:speed",amplifier:1,duration:340},{id:"minecraft:regeneration",amplifier:1,duration:80}]}}}}
+execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sugar",count:8}}] at @s run execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:beetroot",count:3}}] at @s run summon item ~ ~ ~ {Tags:["brew","beetroot_syrup"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:consumable":{consume_seconds:1.5,animation:"drink",sound:"item.honey_bottle.drink",has_consume_particles:false},"minecraft:custom_name":{"color":"#810621","italic":false,"text":"Beetroot Syrup"},"minecraft:potion_contents":{custom_color:8128026,custom_effects:[{id:"minecraft:speed",amplifier:1,duration:320},{id:"minecraft:regeneration",amplifier:1,duration:80}]}}}}
 execute as @e[tag=beetroot_syrup] at @s run function monasbrews:brewed_beetroot_syrup
 
 # Apple Syrup
