@@ -19,14 +19,17 @@
     "components": {
       "minecraft:enchantment_glint_override": false,
       "minecraft:enchantments": {
-        "minecraft:knockback": 5
+        "minecraft:knockback": 3
       },
       "minecraft:weapon": {
         "item_damage_per_attack": 0,
         "disable_blocking_for_seconds": 5
       },
       "minecraft:item_model": "guildsmp:fish_stick",
-      "minecraft:item_name": "Fish Stick",
+      "minecraft:item_name": {
+        "color":"aqua",
+        "text":"Fish Stick"
+      },
       "minecraft:equippable": {
         "slot": "mainhand",
         "allowed_entities": [
@@ -34,6 +37,7 @@
           "minecraft:player"
         ]
       },
+      "minecraft:max_stack_size": 1,
       "minecraft:unbreakable": {}
     },
     "count": 1
