@@ -1,6 +1,23 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "guildsmp:item/donut_hat"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "guildsmp:item/strawberry_glazed_donut_with_sprinkles"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "guildsmp:item/donut_hat"
+    },
+    "property": "minecraft:display_context"
   }
 }
