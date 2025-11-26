@@ -29,5 +29,3 @@ execute as @e[tag=soylent] at @s run function monasbrews:brewed_soylent
 # Strawberry Milk
 execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sweet_berries",count:2}}] at @s run summon item ~ ~ ~ {Tags:["brew","strawberry_milk"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"#d4a8a9","italic":false,"text":"Strawberry Milk"},"minecraft:custom_data":{strawberry_milk:true},"minecraft:tooltip_display":{hidden_components:["potion_contents"]},"minecraft:potion_contents":{custom_color:13936809},"minecraft:lore":[{"color":"blue","italic":false,"text":"Regeneration II (00:30)"},{"color":"red","italic":false,"text":"Slowness (00:30)"}]}}}
 execute as @e[tag=strawberry_milk] at @s run function monasbrews:brewed_strawberry_milk
-
-# Ruh Roh! Natixio-made brews past this point!

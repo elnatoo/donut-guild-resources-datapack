@@ -1,0 +1,8 @@
+{
+  "asset_id": "guildsmp:entity/cat/faraway",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

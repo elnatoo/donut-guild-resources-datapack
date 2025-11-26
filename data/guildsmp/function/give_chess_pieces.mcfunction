@@ -1,6 +1,0 @@
-give @p lime_banner[banner_patterns=[{pattern:triangle_bottom,color:white},{pattern:circle,color:white}]]
-give @p lime_banner[banner_patterns=[{pattern:triangle_bottom,color:white},{pattern:creeper,color:white},{pattern:circle,color:white}]]
-give @p lime_banner[banner_patterns=[{pattern:stripe_middle,color:white},{pattern:stripe_left,color:lime},{pattern:rhombus,color:white},{pattern:square_top_right,color:lime},{pattern:curly_border,color:lime},{pattern:triangle_bottom,color:white}]]
-give @p lime_banner[banner_patterns=[{pattern:triangle_bottom,color:white},{pattern:rhombus,color:white}]]
-give @p lime_banner[banner_patterns=[{pattern:stripe_center,color:white},{pattern:triangle_top,color:white},{pattern:curly_border,color:lime},{pattern:border,color:lime},{pattern:triangle_bottom,color:white}]]
-give @p lime_banner[banner_patterns=[{pattern:stripe_center,color:white},{pattern:triangle_top,color:white},{pattern:curly_border,color:lime},{pattern:border,color:lime},{pattern:triangle_bottom,color:white},{pattern:stripe_center,color:white}]]
