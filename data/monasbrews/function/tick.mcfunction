@@ -35,8 +35,3 @@ execute as @a[tag=chamomile_tea_effect] run execute if score #time time matches 
 
 # Death Reset
 execute as @a[scores={death_detection=1..}] run function monasbrews:death_reset
-
-# Help Command
-scoreboard players enable @a help
-execute as @a[scores={help=1..}] run function monasbrews:cmd_help
-execute as @a[tag=!informed] run function monasbrews:cmd_help
