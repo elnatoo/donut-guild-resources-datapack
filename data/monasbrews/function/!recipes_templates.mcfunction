@@ -1,4 +1,0 @@
-# 1) Add an item to the recipe 
-# execute as @e[distance=..0.5,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:sweet_berries",count:1}}] at @s run 
-# 2) Make the crafted item appear 
-# summon item ~ ~ ~ {Tags:["brew","Item_name"],Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_name":{"color":"Hex color code","italic":false,"text":"Brew_name"},"minecraft:potion_contents":{custom_color:Minecraft_potion_color_number},"minecraft:custom_data":{custom_data_name if needed:true},"minecraft:lore":[{"color":"Desired color (blue/red/gold/purple/etc...)","italic":false,"text":"Desired Text"}],"minecraft:tooltip_display":{hidden_components:["potion_contents"]}}}}
