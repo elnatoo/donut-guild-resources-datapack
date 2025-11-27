@@ -1,1 +1,0 @@
-scoreboard players set @s bear_cooldown 0

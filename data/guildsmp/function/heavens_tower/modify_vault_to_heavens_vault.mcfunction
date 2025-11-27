@@ -1,0 +1,2 @@
+data modify block ~ ~-1 ~ config.key_item set value {id:"minecraft:trial_key",components:{"minecraft:item_model":"guildsmp:heavens_key","minecraft:item_name":{color:"dark_purple",text:"Heaven's Key"}},count:1}
+data modify block ~ ~-1 ~ config.loot_table set value "guildsmp:vaults/heavens_vault"

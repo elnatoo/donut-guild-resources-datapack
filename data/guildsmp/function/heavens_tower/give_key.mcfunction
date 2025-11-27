@@ -1,0 +1,1 @@
+give @s minecraft:trial_key[minecraft:item_model="guildsmp:heavens_key",minecraft:item_name={color:"dark_purple",text:"Heaven's Key"}] 1

@@ -1,0 +1,1 @@
+scoreboard players set @e[type=minecraft:player] bear_cooldown 0
