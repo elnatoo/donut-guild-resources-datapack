@@ -1,0 +1,1 @@
+execute as @a[advancements={monasbrews:unkillable_potion=true}] at @s run function monasbrews:unkillable_potion/use_unkillable_potion_2
