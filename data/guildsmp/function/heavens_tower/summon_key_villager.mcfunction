@@ -1,0 +1,1 @@
+summon villager ~ ~1 ~ {VillagerData:{profession:cleric,level:5,type:swamp},Invulnerable:true,PersistenceRequired:true,CustomName:"Master Uril",Offers:{Recipes:[{buy:{id:emerald,count:32},sell:{id:trial_key,components:{"minecraft:item_model":"guildsmp:heavens_key","minecraft:item_name":{color:"dark_purple",text:"Heaven's Key"}},count:1},rewardExp:0b,maxUses:9999999}]}}
