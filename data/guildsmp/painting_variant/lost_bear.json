@@ -1,0 +1,13 @@
+{
+    "asset_id": "guildsmp:lost_bear",
+    "width": 2,
+    "height": 2,
+    "title": {
+        "color": "dark_gray",
+        "text": "Lost Bear"
+    },
+    "author": {
+        "color": "gold",
+        "text": "elNatoo"
+    }
+}
