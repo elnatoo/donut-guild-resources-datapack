@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "minecraft:item_name": "Heaven's Key",
+        "minecraft:item_model": "guildsmp:heavens_key"
+      }
+    },
+    "title": "Heaven's Peak",
+    "description": "Reach the peak of Heaven's Tower and trade for a special key!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:trial_key",
+            "count": {
+              "min": 1
+            },
+            "components": {
+                "minecraft:item_model": "guildsmp:heavens_key",
+                "minecraft:item_name": {
+                    "color":"dark_purple",
+                    "text":"Heaven's Key"
+                }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
