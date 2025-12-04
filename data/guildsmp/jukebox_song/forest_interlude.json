@@ -1,0 +1,8 @@
+{
+  "description": "Forest Interlude - Miner Mole",
+  "comparator_output": 13,
+  "length_in_seconds": 285,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.forest_interlude"
+  }
+}
