@@ -22,5 +22,53 @@
                 "stream": true
             }
         ]
+    },
+    "music_disc.forest_interlude": {
+        "sounds": [
+            {
+                "name": "records/music_disc_forest_interlude",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.attack_of_the_killer_queen": {
+        "sounds": [
+            {
+                "name": "records/music_disc_attack_of_the_killer_queen",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.100_years": {
+        "sounds": [
+            {
+                "name": "records/music_disc_100_years",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.fuentes_de_ortiz": {
+        "sounds": [
+            {
+                "name": "records/music_disc_fuentes_de_ortiz",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.miner": {
+        "sounds": [
+            {
+                "name": "records/music_disc_miner",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.past_lives": {
+        "sounds": [
+            {
+                "name": "records/music_disc_past_lives",
+                "stream": true
+            }
+        ]
     }
 }
