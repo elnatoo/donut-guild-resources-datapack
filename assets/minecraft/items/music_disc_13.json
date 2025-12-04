@@ -8,24 +8,66 @@
         },
         "cases": [
             {
+                "when": "100_years",
+                "model": {
+                    "type": "model",
+                    "model": "item/music_disc_100_years"
+                }
+            },
+            {
+                "when": "attack_of_the_killer_queen",
+                "model": {
+                    "type": "model",
+                    "model": "item/music_disc_attack_of_the_killer_queen"
+                }
+            },
+            {
                 "when": "biome_drop",
                 "model": {
                     "type": "model",
-                    "model": "item/biome_drop"
+                    "model": "item/music_disc_biome_drop"
                 }
             },
             {
                 "when": "earth",
                 "model": {
                     "type": "model",
-                    "model": "item/earth"
+                    "model": "item/music_disc_earth"
+                }
+            },
+            {
+                "when": "forest_interlude",
+                "model": {
+                    "type": "model",
+                    "model": "item/music_disc_forest_interlude"
+                }
+            },
+            {
+                "when": "fuentes_de_ortiz",
+                "model": {
+                    "type": "model",
+                    "model": "item/music_disc_fuentes_de_ortiz"
+                }
+            },
+            {
+                "when": "miner",
+                "model": {
+                    "type": "model",
+                    "model": "item/music_disc_miner"
                 }
             },
             {
                 "when": "mojam",
                 "model": {
                     "type": "model",
-                    "model": "item/mojam"
+                    "model": "item/music_disc_mojam"
+                }
+            },
+            {
+                "when": "past_lives",
+                "model": {
+                    "type": "model",
+                    "model": "item/music_disc_past_lives"
                 }
             }
         ]
