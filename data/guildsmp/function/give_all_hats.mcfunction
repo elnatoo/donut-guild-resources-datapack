@@ -1,0 +1,2 @@
+give @s minecraft:golden_helmet[minecraft:item_model="guildsmp:donut_hat",minecraft:equippable={slot:head},minecraft:unbreakable={},minecraft:item_name="Donut Hat"]
+give @s minecraft:golden_helmet[minecraft:item_model="guildsmp:lava_chicken_hat",minecraft:equippable={slot:head},minecraft:unbreakable={},minecraft:item_name="Lava Chicken"]

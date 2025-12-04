@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:match_tool",
+    "predicate": {
+        "components": {
+            "item_model": "guildsmp:gilded_pickaxe"
+        }
+    }
+}

@@ -1,0 +1,2 @@
+# Pickaxe can drop ancient ore when used with any other ores (doesn't modify loot tables)
+give @s diamond_pickaxe[item_model="guildsmp:gilded_pickaxe",item_name={"color":"gold","text":"Gilded Pickaxe"},enchantments={efficiency:5,silk_touch:1},max_damage=2500,enchantment_glint_override=false]

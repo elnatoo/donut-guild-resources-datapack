@@ -1,0 +1,1 @@
+execute if entity @s[tag=!can_mine_ancient_ore] run tag @s add can_mine_ancient_ore 
