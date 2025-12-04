@@ -9,6 +9,11 @@
       "pipes/copper_pipe"
     ]
   },
+  "pipes.gold_pipe": {
+    "sounds": [
+      "pipes/gold_pipe"
+    ]
+  },
   "pipes.netherite_pipe": {
     "sounds": [
       "pipes/netherite_pipe"
