@@ -1,0 +1,8 @@
+{
+  "description": "Toby Fox - Attack of the Killer Queen",
+  "comparator_output": 7,
+  "length_in_seconds": 123,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.attack_of_the_killer_queen"
+  }
+}

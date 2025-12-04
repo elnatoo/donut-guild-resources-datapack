@@ -1,0 +1,8 @@
+{
+  "description": "Noteblock Songs - Miner (elRubiusOMG ft. StarkinDJ)",
+  "comparator_output": 4,
+  "length_in_seconds": 210,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.miner"
+  }
+}

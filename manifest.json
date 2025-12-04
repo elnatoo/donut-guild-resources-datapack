@@ -1,15 +1,63 @@
 {
   "packTitle": "Donut Guild Resources",
-  "packDescription": "Custom assets for the GuildSMP",
+  "packDescription": "Custom assets for the GuildSMP S3 Datapack",
   "packVersion": 34,
   "packIcon": "pack.png",
   "songs": [
+    {
+      "title": "Cien Años (Pedro Infante)",
+      "author": "Noteblock Songs",
+      "length": 203,
+      "filePath": "assets/minecraft/sounds/records/music_disc_100_years.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_100_years.png",
+      "animated": false
+    },
+    {
+      "title": "Attack of the Killer Queen",
+      "author": "Toby Fox",
+      "length": 123,
+      "filePath": "assets/minecraft/sounds/records/music_disc_attack_of_the_killer_queen.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_attack_of_the_killer_queen.png",
+      "animated": false
+    },
+    {
+      "title": "Biome Drop",
+      "author": "Biome Labs",
+      "length": 191,
+      "filePath": "assets/minecraft/sounds/records/music_disc_biome_drop.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_biome_drop.png",
+      "animated": false
+    },
     {
       "title": "Earth",
       "author": "Shauny Jang",
       "length": 340,
       "filePath": "assets/minecraft/sounds/records/music_disc_earth.ogg",
       "imagePath": "assets/minecraft/textures/item/music_disc_earth.png",
+      "animated": false
+    },
+    {
+      "title": "Forest Interlude",
+      "author": "Miner Mole",
+      "length": 285,
+      "filePath": "assets/minecraft/sounds/records/music_disc_forest_interlude.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_forest_interlude.png",
+      "animated": false
+    },
+    {
+      "title": "Fuentes De Ortiz (Ed Maverick)",
+      "author": "Noteblock Songs",
+      "length": 216,
+      "filePath": "assets/minecraft/sounds/records/music_disc_fuentes_de_ortiz.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_fuentes_de_ortiz.png",
+      "animated": false
+    },
+    {
+      "title": "Miner (elRubiusOMG ft. StarkinDJ)",
+      "author": "Noteblock Songs",
+      "length": 210,
+      "filePath": "assets/minecraft/sounds/records/music_disc_miner.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_miner.png",
       "animated": false
     },
     {
@@ -21,11 +69,11 @@
       "animated": false
     },
     {
-      "title": "Biome Drop",
-      "author": "Biome Labs",
-      "length": 191,
-      "filePath": "assets/minecraft/sounds/records/music_disc_biome_drop.ogg",
-      "imagePath": "assets/minecraft/textures/item/music_disc_biome_drop.png",
+      "title": "Past Lives (BØRNS)",
+      "author": "PurPle",
+      "length": 232,
+      "filePath": "assets/minecraft/sounds/records/music_disc_past_lives.ogg",
+      "imagePath": "assets/minecraft/textures/item/music_disc_past_lives.png",
       "animated": false
     }
   ]

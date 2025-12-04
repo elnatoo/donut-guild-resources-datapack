@@ -4,12 +4,16 @@ Donut Guild Resources is a data pack designed with the intention of adding fun a
 
 ## Credits
 
-Custom Music for music discs:
+Music for custom music discs:
 - "Biome Drop" by Biome Labs (Eerie Mojang Office Party)
-- "Mojam" by Peter Hont
 - "Earth" by Shauny Jang
+- "Mojam" by Peter Hont
+- "Forest Interlude" by [Miner Mole](https://youtube.com/@minermole101?si=AMWlVFqCx5mu57kl)
+- "Miner", "Fuentes De Ortiz", and "Cien Años" noteblock covers by [Noteblock Songs](https://youtube.com/@cancioneschidasennoteblock1150?si=fjISwuVdCdl7buxH)
+- "Past Lives" noteblock cover by [PurPle](https://youtube.com/@purple_1987?si=mLEFCa9ZiK-kpiZ7)
+- "Attack of the Killer Queen" by Toby Fox
 
-Custom item textures credits
+Custom item textures:
 - elNatoo: baseball bats, metal pipes, banana retexture, donuts, music discs, lava chicken, nobread, Heaven's Tower key
 - NatixioFR: Heaven's Tower key (base design)
 - Gomuro09: Gilded Pickaxe

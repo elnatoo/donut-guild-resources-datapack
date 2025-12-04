@@ -1,0 +1,8 @@
+{
+  "description": "Noteblock Songs - Cien Años (Pedro Infante)",
+  "comparator_output": 10,
+  "length_in_seconds": 203,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.100_years"
+  }
+}
