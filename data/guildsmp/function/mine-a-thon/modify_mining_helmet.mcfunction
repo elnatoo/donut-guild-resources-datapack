@@ -1,0 +1,1 @@
+item modify entity @p weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"guildsmp:vintage_mining_helmet","minecraft:item_name":{text:"Vintage Mining Helmet","color":"gold"},"minecraft:equippable":{"slot":"head","asset_id":"guildsmp:vintage_mining_helmet"}}}
