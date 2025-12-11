@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_nugget",
+          "name": "minecraft:echo_shard",
           "functions": [
             {
               "function": "minecraft:set_components",
