@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hats",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:leather_helmet",
+    "minecraft:ghast_tear"
+  ],
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "components": {
+      "minecraft:item_model": "guildsmp:halo_hat",
+      "minecraft:item_name": {
+        "text": "Halo Hat",
+        "color": "gold"
+      },
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:unbreakable": {}
+    }
+  }
+}

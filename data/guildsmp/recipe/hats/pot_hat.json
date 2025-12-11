@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hats",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:leather_helmet",
+    "minecraft:heart_pottery_sherd",
+    "minecraft:brick",
+    "minecraft:brick",
+    "minecraft:brick"
+  ],
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "components": {
+      "minecraft:item_model": "guildsmp:pot_hat",
+      "minecraft:item_name": {
+        "text": "Literally A Pot",
+        "color": "red"
+      },
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:unbreakable": {}
+    }
+  }
+}

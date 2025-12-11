@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hats",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:leather_helmet",
+    "minecraft:sugar",
+    "minecraft:packed_ice"
+  ],
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "components": {
+      "minecraft:item_model": "guildsmp:ice_cream_hat",
+      "minecraft:item_name": {
+        "text": "Ice Cream Hat",
+        "color": "aqua"
+      },
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:unbreakable": {}
+    }
+  }
+}
