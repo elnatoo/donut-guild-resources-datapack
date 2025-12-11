@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:copper_boots",
+  "addition": "minecraft:gold_ingot",
+  "template": "#guildsmp:ancient_ore",
+  "result": {
+    "id": "minecraft:golden_boots",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "guildsmp:transmuted": 1
+      }
+    }
+  }
+}

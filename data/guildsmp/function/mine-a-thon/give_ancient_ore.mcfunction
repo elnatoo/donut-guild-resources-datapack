@@ -1,0 +1,1 @@
+loot give @s loot guildsmp:items/ancient_ore

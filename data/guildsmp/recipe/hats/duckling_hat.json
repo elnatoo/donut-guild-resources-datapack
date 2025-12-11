@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hats",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:leather_helmet",
+    "minecraft:feather",
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "components": {
+      "minecraft:item_model": "guildsmp:duckling_hat",
+      "minecraft:item_name": {
+        "text": "Duckling Hat",
+        "color": "yellow"
+      },
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:unbreakable": {}
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hats",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:leather_helmet",
+    "minecraft:frogspawn",
+    "minecraft:slime_ball"
+  ],
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "components": {
+      "minecraft:item_model": "guildsmp:frog_hat",
+      "minecraft:item_name": {
+        "text": "Frog Hat",
+        "color": "dark_green"
+      },
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:unbreakable": {}
+    }
+  }
+}

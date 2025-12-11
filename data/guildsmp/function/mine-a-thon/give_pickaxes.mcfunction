@@ -1,0 +1,2 @@
+give @s diamond_pickaxe[item_model="guildsmp:gilded_pickaxe",item_name={"color":"gold","text":"Gilded Pickaxe"},enchantments={efficiency:5,silk_touch:1},max_damage=3000,enchantment_glint_override=false]
+give @s golden_pickaxe[item_model="guildsmp:redwood_pickaxe",item_name={"color":"red","text":"Redwood Pickaxe"},enchantments={efficiency:6,fortune:4},unbreakable={},enchantment_glint_override=false]
