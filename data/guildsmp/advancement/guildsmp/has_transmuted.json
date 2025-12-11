@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_helmet",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:lapis",
+          "pattern": "minecraft:coast"
+        }
+      }
+    },
+    "title": "Transmutation Age",
+    "description": "Transmute a tool or armor into the next tier!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/mine_ancient_ore",
+  "criteria": {
+    "has_transmuted_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "guildsmp:transmuted": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

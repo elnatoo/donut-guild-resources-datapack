@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+        "id":"minecraft:potion",
+        "components": {
+            "minecraft:custom_data": {
+                "banana_milkshake": true
+            },
+            "minecraft:custom_name": {
+                "color":"#f8bd0d",
+                "italic":false,
+                "text":"Banana Milkshake"
+            },
+            "minecraft:potion_contents": {
+                "custom_color":15775237
+            }
+        }
+    },
+    "title": "Banana Slamma!",
+    "description": "Brew a Banana Milkshake!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/banana_pickup",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "banana_milkshake": true
+                }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 35
+  }
+}

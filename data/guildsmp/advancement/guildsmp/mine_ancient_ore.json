@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard",
+      "components": {
+        "minecraft:item_name": {
+            "text": "Ancient Ore",
+            "color": "gold"
+        },
+        "minecraft:item_model": "guildsmp:ancient_ore"
+      }
+    },
+    "title": "Hidden in the Gilded Stones!",
+    "description": "Mine an Ancient Ore!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:echo_shard",
+            "components": {
+                "minecraft:item_name": {
+                    "text": "Ancient Ore",
+                    "color": "gold"
+                },
+                "minecraft:item_model": "guildsmp:ancient_ore"
+            },
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

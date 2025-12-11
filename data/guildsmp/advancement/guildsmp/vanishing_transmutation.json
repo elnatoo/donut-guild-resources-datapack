@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_helmet",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:redstone",
+          "pattern": "minecraft:silence"
+        }
+      }
+    },
+    "title": "High Risk, High Reward",
+    "description": "Transmute a tool or armor with a Curse of Vanishing!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/has_transmuted",
+  "criteria": {
+    "has_transmuted_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "guildsmp:transmuted": 1
+              },
+              "minecraft:enchantments": [
+                {
+                    "enchantments": "minecraft:vanishing_curse"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

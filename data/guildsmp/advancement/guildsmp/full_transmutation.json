@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:lapis",
+          "pattern": "minecraft:coast"
+        }
+      }
+    },
+    "title": "Ascendant Alloy",
+    "description": "Transmute a Copper tool or armor all the way to Diamond tier, then upgrade it to Netherite!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/has_transmuted",
+  "criteria": {
+    "has_transmuted_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#guildsmp:transmuted_gear",
+            "predicates": {
+              "minecraft:custom_data": {
+                "guildsmp:transmuted": 1,
+                "guildsmp:transmuted_gold": 1,
+                "guildsmp:transmuted_iron": 1,
+                "guildsmp:transmuted_diamond": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

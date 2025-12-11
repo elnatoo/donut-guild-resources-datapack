@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stick",
+      "id": "minecraft:golden_helmet",
       "components": {
-        "minecraft:item_name": "Fish Stick",
-        "minecraft:item_model": "guildsmp:fish_stick"
+        "minecraft:item_name": "Frog Hat",
+        "minecraft:item_model": "guildsmp:frog_hat"
       }
     },
-    "title": "Fish Stick",
+    "title": "Hats",
     "description": "Recipe unlocked!",
     "hidden": true,
     "show_toast": false,
@@ -21,9 +21,7 @@
         "items": [
           {
             "items": [
-              "minecraft:cod",
-              "minecraft:salmon",
-              "minecraft:lapis_lazuli"
+              "minecraft:leather"
             ]
           }
         ]
@@ -32,7 +30,12 @@
   },
   "rewards": {
     "recipes": [
-      "guildsmp:fish_stick"
+      "guildsmp:hats/duckling_hat",
+      "guildsmp:hats/halo_hat",
+      "guildsmp:hats/pot_hat",
+      "guildsmp:hats/frog_hat",
+      "guildsmp:hats/ice_cream_hat",
+      "guildsmp:hats/slime_hat"
     ]
   }
 }
