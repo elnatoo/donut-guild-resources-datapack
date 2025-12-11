@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:iron_boots",
+  "addition": "minecraft:diamond",
+  "template": "#guildsmp:ancient_ore",
+  "result": {
+    "id": "minecraft:diamond_boots",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "guildsmp:transmuted": 1
+      }
+    }
+  }
+}
