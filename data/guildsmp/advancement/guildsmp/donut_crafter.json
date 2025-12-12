@@ -7,8 +7,8 @@
         "minecraft:item_model": "guildsmp:glazed_donut"
       }
     },
-    "title": "Donut Crafter",
-    "description": "Craft your first donut!",
+    "title": "Mmm... Donuts!",
+    "description": "Craft your first Glazed Donut!",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true

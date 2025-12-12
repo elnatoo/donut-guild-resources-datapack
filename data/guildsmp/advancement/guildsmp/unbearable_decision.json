@@ -11,12 +11,17 @@
   },
   "parent": "guildsmp:guildsmp/root",
   "criteria": {
-    "hurt_by_bear": {
-      "trigger": "minecraft:entity_hurt_player",
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "damage": {
-          "source_entity": {
-            "type": "minecraft:polar_bear"
+        "entity": {
+          "type": "minecraft:polar_bear"
+        },
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": "minecraft:stick"
+            }
           }
         }
       }

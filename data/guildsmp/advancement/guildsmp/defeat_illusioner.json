@@ -2,7 +2,7 @@
   "parent": "guildsmp:guildsmp/root",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:illusioner"
@@ -11,7 +11,7 @@
     }
   },
   "display": {
-    "description": "Defeat an Illusioner",
+    "description": "Encounter an Illusioner",
     "frame": "task",
     "icon": {
       "components": {

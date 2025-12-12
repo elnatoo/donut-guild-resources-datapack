@@ -1,0 +1,3 @@
+# Stand on top of vault to modify
+data modify block ~ ~-1 ~ config.key_item set value {id:"minecraft:cooked_chicken",components:{"minecraft:item_model":"guildsmp:lava_chicken","minecraft:item_name":"Lava Chicken","minecraft:damage_resistant":{"types":"#minecraft:is_fire"},"minecraft:food":{"nutrition":7,"saturation":7.8}}}
+data modify block ~ ~-1 ~ config.loot_table set value "guildsmp:vaults/lava_chicken_vault"

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:iron_leggings",
+  "addition": "minecraft:diamond",
+  "template": "#guildsmp:ancient_ore",
+  "result": {
+    "id": "minecraft:diamond_leggings",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "guildsmp:transmuted": 1,
+        "guildsmp:transmuted_gold": 1,
+        "guildsmp:transmuted_iron": 1,
+        "guildsmp:transmuted_diamond": 1
+      }
+    }
+  }
+}

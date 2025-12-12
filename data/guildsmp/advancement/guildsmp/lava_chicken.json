@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_chicken",
+      "components": {
+        "minecraft:item_name": "Lava Chicken",
+        "minecraft:item_model": "guildsmp:lava_chicken"
+      }
+    },
+    "title": "La-la-lava!",
+    "description": "Obtain a Lava Chicken!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "guildsmp:guildsmp/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_chicken",
+            "components": {
+              "minecraft:item_name": "Lava Chicken",
+              "minecraft:item_model": "guildsmp:lava_chicken"
+            },
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

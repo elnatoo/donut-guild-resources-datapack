@@ -7,7 +7,7 @@
         "minecraft:item_model": "guildsmp:golden_donut"
       }
     },
-    "title": "Donut Master",
+    "title": "Deity's Blessing",
     "description": "Collect all the donuts!",
     "frame": "challenge",
     "show_toast": true,

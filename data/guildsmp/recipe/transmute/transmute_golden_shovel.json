@@ -1,15 +1,16 @@
 {
   "type": "minecraft:smithing_transform",
-  "base": "minecraft:copper_pickaxe",
-  "addition": "minecraft:gold_ingot",
+  "base": "minecraft:golden_shovel",
+  "addition": "minecraft:iron_ingot",
   "template": "#guildsmp:ancient_ore",
   "result": {
-    "id": "minecraft:golden_pickaxe",
+    "id": "minecraft:iron_shovel",
     "count": 1,
     "components": {
       "minecraft:custom_data": {
         "guildsmp:transmuted": 1,
-        "guildsmp:transmuted_gold": 1
+        "guildsmp:transmuted_gold": 1,
+        "guildsmp:transmuted_iron": 1
       }
     }
   }

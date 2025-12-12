@@ -1,0 +1,3 @@
+# Stand on top of vault to modify
+data modify block ~ ~-1 ~ config.key_item set value {id:"minecraft:bread",components:{"minecraft:item_model":"guildsmp:strawberry_glazed_donut_with_sprinkles","minecraft:item_name":"Strawberry Glazed Donut with Sprinkles","minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"minecraft:speed","amplifier":0,"duration":600,"show_particles":false}]}]}}}
+data modify block ~ ~-1 ~ config.loot_table set value "guildsmp:vaults/donut_hat_vault"
